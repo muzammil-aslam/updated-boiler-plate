@@ -20,7 +20,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-export default function Signin() {
+export default function Sigin() {
   const [name, setName] = useState();
   const [lastname, setLastName] = useState();
   const [cnic, setCnic] = useState();

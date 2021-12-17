@@ -29,7 +29,7 @@ export default function Login() {
   const dispatch = useDispatch();
 
   const handleSubmition = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     let dataObj = {
       email,
@@ -60,6 +60,7 @@ export default function Login() {
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
+      console.log(user);
       if (user) {
         navigate("/");
       } else {
@@ -134,7 +135,7 @@ export default function Login() {
                       </div>
                     </div>
 
-                    <Link to="/signin">
+                    <Link to="/sigin">
                       <div className="styling">
                         <button className="main-bat">or-sign Up with</button>
                       </div>

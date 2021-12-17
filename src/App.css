@@ -109,7 +109,7 @@
 }
 
 .inpute {
-  margin:30px;
+  margin: 30px;
   background: none !important;
   color: white;
 }
@@ -156,5 +156,170 @@
 }
 .sign {
   color: black;
-  font-size:40px;
+  font-size: 40px;
+}
+
+.nav {
+  display: flex;
+}
+.bar {
+  margin: 3px;
+  padding: 3px;
+  color: white;
+}
+.bars {
+  margin: 3px;
+  padding: 3px;
+  color: white;
+}
+.beauty {
+  width: 100%;
+  margin: 3px;
+  padding: 3px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(206, 64, 111);
+}
+.down {
+  margin: 3px;
+  border-radius: 8px;
+  background-color: pink;
+  padding: 3px;
+  width: 100%;
+  color: black;
+  border: none;
+}
+
+.resort {
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+  height: 100vh;
+}
+
+.child-nav {
+  display: flex;
+  flex: 1;
+}
+.home {
+  padding: 5px;
+  padding: 5px;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+}
+.child-nav {
+  width: 100%;
+}
+
+.card {
+  margin-top: 100px;
+}
+.club {
+}
+.icon {
+  color: palevioletred;
+}
+
+.life {
+  text-align: center;
+  margin-top: 50px;
+}
+
+template {
+  text-align: center;
+}
+.solution {
+  border-radius: 60px;
+}
+
+.tempore {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.iste {
+  display: flex;
+  justify-content: center;
+}
+
+.enjoy {
+  font-size: 10vh;
+}
+.child-nav {
+  display: flex;
+  width: 50%;
+}
+
+.myclass {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hotel {
+  font-size: 13vh;
+  color: white;
+}
+.hotels {
+  color: white;
+  font-size: 5vh;
+}
+.cover {
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+.link:hover {
+  color: red;
+}
+.parent-contact {
+  margin-top: 100px;
+}
+
+.contact {
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+.term {
+  color: white;
+}
+
+.parent-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.inp {
+  outline: none;
+  color: black;
+  border: none;
+  background-color: white;
+  border-bottom: rgb(122, 118, 118);
+}
+
+.branch {
+  color: white;
+}
+.wines:hover {
+  color: red;
+}
+
+.passing {
+  margin-top: 30px;
 }

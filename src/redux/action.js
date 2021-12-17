@@ -10,3 +10,9 @@ export function secondData(data) {
     data: data,
   };
 }
+export function bookingData(data) {
+  return {
+    type: "bookingData",
+    data: data,
+  };
+}
